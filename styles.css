@@ -38,6 +38,41 @@ body {
 
 header {
     grid-area: header;
+    display: grid;
+    grid-template-areas: 
+        'search overview'
+        'welcome buttons';
+}
+
+.search-bar {
+    grid-area: search;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    width: 90%;
+}
+
+.account-overview {
+    grid-area: overview;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.profile-welcome {
+    grid-area: welcome;
+}
+
+.header-buttons {
+    grid-area: buttons;
 }
 
 .sidebar {
