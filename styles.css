@@ -249,3 +249,7 @@ h4 {
     padding: 15px;
     border-radius: 10px;
 }
+
+.trending-profile-pic {
+    border-radius: 50%;
+}
