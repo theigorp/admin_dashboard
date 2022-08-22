@@ -154,6 +154,10 @@ header {
     transform: scale(1.2);
 }
 
+.fancy-logo {
+    color: white;
+}
+
 main {
     grid-area: main;
     background-color: var(--main-content-bg);
