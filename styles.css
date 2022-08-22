@@ -50,6 +50,7 @@ header {
         'search overview'
         'welcome buttons';
     padding: 10px 0 15px 50px;
+    gap: 30px;
 }
 
 .search-bar {
@@ -91,9 +92,21 @@ header {
     border-radius: 50%;
 }
 
-
 .profile-welcome {
     grid-area: welcome;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hi-there .greeting {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.hi-there .account-fullname {
+    font-size: 24px;
 }
 
 .header-buttons {
