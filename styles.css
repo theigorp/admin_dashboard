@@ -134,6 +134,24 @@ header {
     grid-area: sidebar;
     background-color: var(--sidebar-bg);
     color: white;
+    padding: 50px;
+}
+
+.main-menu p, .settings-menu p {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main-menu li, .settings-menu li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#home {
+    transform: scale(1.2);
 }
 
 main {
