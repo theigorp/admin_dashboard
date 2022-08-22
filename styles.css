@@ -59,6 +59,7 @@ header {
 
 #search-bar {
     width: 90%;
+    background-color: var(--main-content-bg);
 }
 
 .account-overview {
