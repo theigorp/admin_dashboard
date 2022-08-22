@@ -253,3 +253,12 @@ h4 {
 .trending-profile-pic {
     border-radius: 50%;
 }
+
+.profile-card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.info {
+    align-self: center;
+}
