@@ -88,8 +88,11 @@ header {
 
 .sidebar {
     grid-area: sidebar;
+    background-color: var(--sidebar-bg);
+    color: white;
 }
 
 main {
     grid-area: main;
+    background-color: var(--main-content-bg);
 }
