@@ -55,11 +55,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 #search-bar {
     width: 90%;
     background-color: var(--main-content-bg);
+    border: none;
+    border-radius: 15px;
+    height: 25px;
 }
 
 .account-overview {
