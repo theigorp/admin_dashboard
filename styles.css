@@ -186,20 +186,29 @@ main {
 
 .project-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
 .project-card {
     background-color: white;
-    padding: 30px;
+    padding: 15px;
     border-left: 10px solid #f1b328;
     border-radius: 10px;
     z-index: 2;
+    /* min-height: 200px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+.icons {
+    justify-self: end;
+    margin-top: 10px;
 }
