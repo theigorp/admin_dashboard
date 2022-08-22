@@ -62,11 +62,11 @@ header {
 }
 
 #search-bar {
-    width: 85%;
+    width: 90%;
     background-color: var(--main-content-bg);
     border: none;
     border-radius: 15px;
-    height: 25px;
+    height: 30px;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -74,7 +74,7 @@ header {
 .account-overview {
     grid-area: overview;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -111,6 +111,21 @@ header {
 
 .header-buttons {
     grid-area: buttons;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.header-buttons button {
+    background-color: var(--sidebar-bg);
+    color: white;
+    border: 1px solid var(--sidebar-bg);
+    padding: 10px 35px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 25px;
 }
 
 .sidebar {
