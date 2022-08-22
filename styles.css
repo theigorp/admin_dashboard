@@ -212,3 +212,38 @@ h3 {
     justify-self: end;
     margin-top: 10px;
 }
+
+h2 {
+    font: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.announcements {
+    
+}
+
+.ann-cards {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.ann-card {
+    background-color: white;
+    padding: 20px 5px;
+}
+
+.ann-card:nth-child(2) {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.ann-card p {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
