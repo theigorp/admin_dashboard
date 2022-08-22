@@ -196,7 +196,7 @@ main {
     border-left: 10px solid #f1b328;
     border-radius: 10px;
     z-index: 2;
-    /* min-height: 200px; */
+    min-height: 220px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -242,4 +242,10 @@ h2 {
 h4 {
     font-size: 14px;
     font-weight: 600;
+}
+
+.profile-cards {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
 }
