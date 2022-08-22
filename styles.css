@@ -45,38 +45,52 @@ body {
 header {
     grid-area: header;
     display: grid;
+    grid-template-columns: 4fr 2fr;
     grid-template-areas: 
         'search overview'
         'welcome buttons';
+    padding: 10px 0 10px 20px;
 }
 
 .search-bar {
     grid-area: search;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
 }
 
 #search-bar {
-    width: 90%;
+    width: 85%;
     background-color: var(--main-content-bg);
     border: none;
     border-radius: 15px;
     height: 25px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .account-overview {
     grid-area: overview;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
+}
+
+.account-fullname {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#notification {
+    transform: scale(1.2);
 }
 
 .profile-picture {
     border-radius: 50%;
 }
+
 
 .profile-welcome {
     grid-area: welcome;
